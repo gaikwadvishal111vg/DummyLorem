@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Lorem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="generater">
+        
+        <div class="generator-head">
+            <form action="" id="generator-form">
+                <div class="gen-value">
+                    <input type="number" name="gen-count" class="form-control" min="1" max="100" value="5" id="count">
+                </div>
+                <div>
+                    <select name="gen-options" class="form-control" id="option1">
+                        <option value="paras">PARAGRAPHAS</option>
+                        <option value="sentences">SENTENCES</option>
+                        <option value="words">WORDS</option>
+                    </select>
+                </div>
+                <button type="button" id="gen-btn" class="btn">generate</button>
+            </form>
+            <button type="button" id="copy-btn" class="btn">
+                <span>COPY</span>
+                <!-- icon -->
+            </button>
+        </div>
+        <div class="generator-body" id="gen-content">
+             </div>
+    </div>
+</div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
